@@ -1,0 +1,40 @@
+.header__all {
+    position: absolute;
+    top: 20px;
+    z-index: 12222222222222222222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    transition: background-color 0.3s; // Təsirli keçid effekti
+  }
+  
+  .header__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    a {
+      color: darkgray;
+      text-decoration: none;
+      font-size: 23px;
+    }
+  }
+  
+  .header__right {
+    border: 2px solid white;
+    font-size: 22px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .header__all--special {
+    background-color: black; // Wishlist, Add, və Detail səhifələri üçün qara fon
+    top: -100px;
+  }
+  

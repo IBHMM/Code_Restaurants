@@ -1,0 +1,73 @@
+#app {
+    height: 100%;
+  }
+  
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 70% !important;
+    overflow: hidden;
+    position: relative;
+    /* Şəkillərin içində düzgün miqyaslanması üçün */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide-content img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Şəkilin tam uyğun olmasını təmin etmək */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.382); /* Daha qaranlıq fon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h2 {
+    margin: 0;
+    font-size: 34px;
+    color: #fff;
+    // background-color: rgba(0, 0, 0, 0.4); /* Mətnin oxunaqlılığını artırmaq üçün yarı şəffaf fon */
+    padding: 10px;
+    font-family: cursive !important;
+  }
+  

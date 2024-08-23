@@ -1,0 +1,118 @@
+
+*,:before,:after { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+.d-flex { 
+    display: -webkit-box !important; 
+    display: -ms-flexbox !important; 
+    display: flex !important;
+} 
+
+.ftco-animated { 
+    -webkit-animation-duration: .5s; 
+    animation-duration: .5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+} 
+
+.fadeInUp { 
+    -webkit-animation-name: fadeInUp; 
+    animation-name: fadeInUp;
+} 
+
+.ftco-animate { 
+    opacity: 0; 
+    visibility: hidden;
+} 
+
+.menus  { 
+    width: 100%; 
+    background: #fff; 
+    padding: 15px; 
+    margin-bottom: 30px; 
+    -webkit-box-shadow: 0px 1px 18px -12px rgba(0, 0, 0, 0.75); 
+    -moz-box-shadow: 0px 1px 18px -12px rgba(0, 0, 0, 0.75); 
+    box-shadow: 0px 1px 18px -12px rgba(0, 0, 0, 0.75); 
+    -moz-transition: all 0.3s ease; 
+    -o-transition: all 0.3s ease; 
+    -webkit-transition: all 0.3s ease; 
+    -ms-transition: all 0.3s ease; 
+    transition: all 0.3s ease;
+} 
+
+.menus:hover  { 
+    background: #ffb400;
+} 
+
+.text  { 
+    width: calc(100% - 100px);
+} 
+
+.text .one-half  { 
+    width: calc(100% - 80px);
+} 
+
+.text .one-forth  { 
+    width: 80px; 
+    text-align: right;
+} 
+
+h3 { 
+    margin-top: 0; 
+    margin-bottom: 0.5rem;
+} 
+
+h3 { 
+    margin-bottom: 0.5rem; 
+    font-family: inherit; 
+    font-weight: 500; 
+    line-height: 1.2; 
+    color: inherit;
+} 
+
+h3 { 
+    font-size: 1.75rem;
+} 
+
+h3 { 
+    line-height: 1.5; 
+    color: #404044; 
+    font-weight: 400;
+} 
+
+.text .one-half h3  { 
+    font-size: 18px;
+} 
+
+p { 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+} 
+
+.text .one-half p  { 
+    margin-bottom: 0;
+} 
+
+.menus:hover .text .one-half p  { 
+    margin-bottom: 0; 
+    color: #404044;
+} 
+
+.text .one-forth .price  { 
+    font-size: 30px; 
+    color: #404044; 
+    line-height: 1.4;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-oOqeT.style-oOqeT {  
+//    background-image: url(images/dish-3.jpg); 
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+}  
